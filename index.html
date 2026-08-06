@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Risha Singh — Web Designer</title>
+  <meta name="description" content="I design websites that turn visitors into customers. Portfolio of Risha Singh, a web designer crafting high-converting, cinematic digital experiences.">
+  <meta name="author" content="Risha Singh">
+  <meta property="og:title" content="Risha Singh — Web Designer">
+  <meta property="og:description" content="I design websites that turn visitors into customers.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#080a0f">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- LOADER -->
+  <div class="loader" id="loader">
+    <div class="loader-content">
+      <div class="loader-mark">RISHA SINGH</div>
+      <div class="loader-sub">WEB DESIGNER</div>
+      <div class="loader-line"><div class="loader-line-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+  <div class="cursor-text" id="cursorText"></div>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav-logo">RISHA<sup>®</sup></a>
+    <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#work">WORK</a></li>
+      <li><a href="#services">SERVICES</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#process">PROCESS</a></li>
+    </ul>
+    <a href="#" class="nav-cta" id="navStartProject">START A PROJECT <span class="arrow">↗</span></a>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-text" id="heroBgText" data-speed="0.3">RISHA</div>
+    <div class="hero-bg-text hero-bg-text-2" id="heroBgText2" data-speed="0.15">DESIGN</div>
+
+    <div class="hero-ambient hero-ambient-1"></div>
+    <div class="hero-ambient hero-ambient-2"></div>
+
+    <img class="hero-portrait" id="heroPortrait" src="assets/risha-portrait.jpg" alt="Risha Singh — Web Designer" data-speed="0.08">
+
+    <div class="hero-content" id="heroContent">
+      <div class="hero-label">
+        <span>RISHA SINGH</span>
+        <span class="hero-label-sep">—</span>
+        <span>WEB DESIGNER</span>
+      </div>
+      <h1 class="hero-title">
+        I design websites that<br><em>turn visitors into customers.</em>
+      </h1>
+      <div class="hero-cta-group">
+        <a href="#" class="btn-primary magnetic" data-cursor="START ↗" id="heroStartProject">START A PROJECT <span class="arrow">↗</span></a>
+        <a href="#work" class="btn-ghost">VIEW MY WORK <span class="arrow">↗</span></a>
+      </div>
+    </div>
+
+    <div class="hero-info-right" id="heroInfoRight">
+      <div class="hero-status">
+        <span class="status-dot"></span>
+        AVAILABLE FOR PROJECTS
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator" id="heroScrollIndicator">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <div class="section-label reveal">01 — ABOUT</div>
+      <h2 class="section-heading reveal">
+        Design<br>
+        <em>with</em><br>
+        Purpose.
+      </h2>
+      <div class="about-content">
+        <div class="about-text reveal">
+          <p>I design thoughtful digital experiences that combine strong visual direction, usability and conversion-focused thinking.</p>
+        </div>
+        <div class="about-stats reveal reveal-delay-1">
+          <div class="about-stat">
+            <div class="about-stat-number">5+</div>
+            <div class="about-stat-label">Years Experience</div>
+          </div>
+          <div class="about-stat">
+            <div class="about-stat-number">50+</div>
+            <div class="about-stat-label">Projects Delivered</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="section" id="services">
+    <div class="section-inner">
+      <div class="section-label reveal">02 — SERVICES</div>
+      <h2 class="section-heading reveal">What I<br><em>Create.</em></h2>
+      <div class="services-list">
+        <div class="service-row reveal" data-cursor="VIEW ↗" data-service="website-design">
+          <span class="service-number">01</span>
+          <span class="service-name">Website Design</span>
+          <span class="service-arrow">↗</span>
+        </div>
+        <div class="service-row reveal reveal-delay-1" data-cursor="VIEW ↗" data-service="landing-pages">
+          <span class="service-number">02</span>
+          <span class="service-name">Landing Pages</span>
+          <span class="service-arrow">↗</span>
+        </div>
+        <div class="service-row reveal reveal-delay-1" data-cursor="VIEW ↗" data-service="business-websites">
+          <span class="service-number">03</span>
+          <span class="service-name">Business Websites</span>
+          <span class="service-arrow">↗</span>
+        </div>
+        <div class="service-row reveal reveal-delay-2" data-cursor="VIEW ↗" data-service="ecommerce">
+          <span class="service-number">04</span>
+          <span class="service-name">E-Commerce</span>
+          <span class="service-arrow">↗</span>
+        </div>
+        <div class="service-row reveal reveal-delay-2" data-cursor="VIEW ↗" data-service="ui-ux">
+          <span class="service-number">05</span>
+          <span class="service-name">UI / UX</span>
+          <span class="service-arrow">↗</span>
+        </div>
+        <div class="service-row reveal reveal-delay-3" data-cursor="VIEW ↗" data-service="website-redesign">
+          <span class="service-number">06</span>
+          <span class="service-name">Website Redesign</span>
+          <span class="service-arrow">↗</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SELECTED WORK SECTION -->
+  <section class="section section-work" id="work">
+    <div class="section-inner">
+      <div class="section-label reveal">03 — SELECTED WORK</div>
+      <h2 class="section-heading reveal">Selected<br><em>Projects.</em></h2>
+      <p class="section-supporting-text reveal">A selection of digital experiences designed to make businesses, ideas and products look as good online as they deserve to.</p>
+
+      <div class="project-item reveal" data-project="0">
+        <div class="project-image-wrap" data-cursor="VIEW CASE STUDY ↗">
+          <img class="project-image" src="assets/project-haven.jpg" alt="Haven — Digital Product / Web Experience" loading="lazy">
+          <div class="project-glow"></div>
+          <div class="project-hover-label">EXPLORE PROJECT ↗</div>
+        </div>
+        <div class="project-meta">
+          <div class="project-number">PROJECT 01</div>
+          <h3 class="project-title">Haven</h3>
+          <div class="project-category">DIGITAL PRODUCT / WEB EXPERIENCE</div>
+          <p class="project-desc">A thoughtful digital experience designed around connection, comfort and simplicity. Haven combines a calm visual system with an intuitive interface to make the experience feel approachable from the very first interaction.</p>
+          <div class="project-tags"><span>UI/UX</span><span>WEB DESIGN</span><span>DIGITAL EXPERIENCE</span></div>
+          <a href="#" class="project-link" data-project-link="0">VIEW CASE STUDY <span class="arrow">↗</span></a>
+        </div>
+      </div>
+
+      <div class="project-item reveal" data-project="1">
+        <div class="project-image-wrap" data-cursor="VIEW CASE STUDY ↗">
+          <img class="project-image" src="assets/project-dental.jpg" alt="Dental — Healthcare Website" loading="lazy">
+          <div class="project-glow"></div>
+          <div class="project-hover-label">EXPLORE PROJECT ↗</div>
+        </div>
+        <div class="project-meta">
+          <div class="project-number">PROJECT 02</div>
+          <h3 class="project-title">Dental</h3>
+          <div class="project-category">HEALTHCARE WEBSITE</div>
+          <p class="project-desc">A polished website concept focused on trust, clarity and effortless appointment discovery. The design gives the practice a more premium digital presence while keeping essential information easy to find.</p>
+          <div class="project-tags"><span>WEB DESIGN</span><span>UI/UX</span><span>BUSINESS WEBSITE</span></div>
+          <a href="#" class="project-link" data-project-link="1">VIEW CASE STUDY <span class="arrow">↗</span></a>
+        </div>
+      </div>
+
+      <div class="project-item reveal" data-project="2">
+        <div class="project-image-wrap" data-cursor="VIEW CASE STUDY ↗">
+          <img class="project-image" src="assets/project-business.jpg" alt="Business Website — Business / Service Website" loading="lazy">
+          <div class="project-glow"></div>
+          <div class="project-hover-label">EXPLORE PROJECT ↗</div>
+        </div>
+        <div class="project-meta">
+          <div class="project-number">PROJECT 03</div>
+          <h3 class="project-title">Business Website</h3>
+          <div class="project-category">BUSINESS / SERVICE WEBSITE</div>
+          <p class="project-desc">A conversion-focused website designed to turn a business's online presence into a clear customer journey — from first impression to enquiry.</p>
+          <div class="project-tags"><span>WEB DESIGN</span><span>BRANDING</span><span>CONVERSION</span></div>
+          <a href="#" class="project-link" data-project-link="2">VIEW CASE STUDY <span class="arrow">↗</span></a>
+        </div>
+      </div>
+
+      <div class="project-item reveal" data-project="3">
+        <div class="project-image-wrap" data-cursor="VIEW CASE STUDY ↗">
+          <img class="project-image" src="assets/project-ppf.jpg" alt="PPF — Automotive / PPF Website" loading="lazy">
+          <div class="project-glow"></div>
+          <div class="project-hover-label">EXPLORE PROJECT ↗</div>
+        </div>
+        <div class="project-meta">
+          <div class="project-number">PROJECT 04</div>
+          <h3 class="project-title">PPF</h3>
+          <div class="project-category">AUTOMOTIVE / PPF WEBSITE</div>
+          <p class="project-desc">A premium digital presence created for a paint protection film business. The design uses strong visual hierarchy, clear service presentation and direct calls to action to help potential customers understand the service and enquire with confidence.</p>
+          <div class="project-tags"><span>WEB DESIGN</span><span>BUSINESS WEBSITE</span><span>CONVERSION</span></div>
+          <a href="#" class="project-link" data-project-link="3">VIEW CASE STUDY <span class="arrow">↗</span></a>
+        </div>
+      </div>
+
+      <div class="project-item reveal" data-project="4">
+        <div class="project-image-wrap" data-cursor="VIEW CASE STUDY ↗">
+          <img class="project-image" src="assets/project-creative.jpg" alt="Aura — Premium Creative Website" loading="lazy">
+          <div class="project-glow"></div>
+          <div class="project-hover-label">EXPLORE PROJECT ↗</div>
+        </div>
+        <div class="project-meta">
+          <div class="project-number">PROJECT 05</div>
+          <h3 class="project-title">Aura</h3>
+          <div class="project-category">PREMIUM CREATIVE WEBSITE</div>
+          <p class="project-desc">A visual-first creative website built around expressive typography, bold composition and a refined dark aesthetic. The experience treats the website itself as part of the brand — designed to capture attention without sacrificing clarity.</p>
+          <div class="project-tags"><span>CREATIVE DIRECTION</span><span>WEB DESIGN</span><span>INTERACTION</span></div>
+          <a href="#" class="project-link" data-project-link="4">VIEW CASE STUDY <span class="arrow">↗</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS SECTION -->
+  <section class="section" id="process">
+    <div class="section-inner">
+      <div class="section-label reveal">04 — PROCESS</div>
+      <h2 class="section-heading reveal">From Idea<br><em>to Experience.</em></h2>
+      <div class="process-timeline">
+        <div class="process-line-track"><div class="process-line-fill" id="processLineFill"></div></div>
+        <div class="process-step" data-step="1">
+          <div class="process-dot"></div>
+          <div class="process-step-content">
+            <div class="process-number">01</div>
+            <h3 class="process-name">Discover</h3>
+            <p class="process-text">Understanding your vision, goals, and audience to lay the foundation for a design that truly connects.</p>
+          </div>
+        </div>
+        <div class="process-step" data-step="2">
+          <div class="process-dot"></div>
+          <div class="process-step-content">
+            <div class="process-number">02</div>
+            <h3 class="process-name">Strategize</h3>
+            <p class="process-text">Crafting a strategic roadmap that aligns design decisions with your business objectives and user needs.</p>
+          </div>
+        </div>
+        <div class="process-step" data-step="3">
+          <div class="process-dot"></div>
+          <div class="process-step-content">
+            <div class="process-number">03</div>
+            <h3 class="process-name">Design</h3>
+            <p class="process-text">Bringing the strategy to life through carefully art-directed visual design that captivates and converts.</p>
+          </div>
+        </div>
+        <div class="process-step" data-step="4">
+          <div class="process-dot"></div>
+          <div class="process-step-content">
+            <div class="process-number">04</div>
+            <h3 class="process-name">Build</h3>
+            <p class="process-text">Translating designs into pixel-perfect, responsive, and performant websites built for the real world.</p>
+          </div>
+        </div>
+        <div class="process-step" data-step="5">
+          <div class="process-dot"></div>
+          <div class="process-step-content">
+            <div class="process-number">05</div>
+            <h3 class="process-name">Launch</h3>
+            <p class="process-text">Deploying your website with precision and providing ongoing support to ensure lasting success.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <h2 class="contact-heading reveal">
+        Let's Make<br>
+        Something<br>
+        <em>Beautiful.</em>
+      </h2>
+      <div class="contact-cta-group reveal">
+        <a href="#" class="btn-primary btn-large" id="contactStartProject" data-cursor="START ↗">START A PROJECT <span class="arrow">↗</span></a>
+        <a href="https://wa.me/919140588807?text=Hi%20Risha!%20I%20found%20your%20portfolio%20and%20I'd%20like%20to%20discuss%20a%20website%20project." target="_blank" rel="noopener" class="btn-ghost">CHAT ON WHATSAPP <span class="arrow">↗</span></a>
+      </div>
+      <div class="contact-info reveal">
+        <div class="contact-method">
+          <div class="contact-method-label">EMAIL</div>
+          <a href="mailto:workwithshiromani@gmail.com">workwithshiromani@gmail.com</a>
+        </div>
+        <div class="contact-method">
+          <div class="contact-method-label">PHONE</div>
+          <a href="tel:+919140588807">+91 9140588807</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand-col">
+        <a href="#hero" class="footer-brand">RISHA<sup>®</sup></a>
+        <div class="footer-brand-sub">WEB DESIGNER</div>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#work">WORK</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <div class="footer-copy">© 2026 RISHA SINGH. ALL RIGHTS RESERVED.</div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       MODALS
+       ============================================================ -->
+
+  <!-- PROJECT INQUIRY MODAL -->
+  <div class="modal-overlay" id="inquiryOverlay">
+    <div class="inquiry-modal">
+      <button class="modal-close" id="inquiryClose" aria-label="Close inquiry">
+        <span class="modal-close-line"></span>
+        <span class="modal-close-line"></span>
+      </button>
+
+      <div class="inquiry-form-wrap" id="inquiryFormWrap">
+        <div class="inquiry-header">
+          <div class="section-label">PROJECT INQUIRY</div>
+          <h2 class="inquiry-title">Let's Build Something <em>Great.</em></h2>
+          <p class="inquiry-subtitle">Tell me about your project and I'll get back to you.</p>
+        </div>
+
+        <form id="projectForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">01 — YOUR NAME <span class="form-required">*</span></label>
+              <input type="text" class="form-input" name="name" placeholder="Your full name" required id="formName">
+              <div class="form-error-msg" id="errorName">Please enter your name.</div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">02 — EMAIL ADDRESS <span class="form-required">*</span></label>
+              <input type="email" class="form-input" name="email" placeholder="you@example.com" required id="formEmail">
+              <div class="form-error-msg" id="errorEmail">Please enter a valid email address.</div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">03 — WHATSAPP / PHONE</label>
+              <input type="tel" class="form-input" name="whatsapp" placeholder="+91 XXXXX XXXXX" id="formWhatsapp">
+            </div>
+            <div class="form-group">
+              <label class="form-label">04 — SERVICE NEEDED <span class="form-required">*</span></label>
+              <select class="form-select" name="service" required id="formService">
+                <option value="" disabled selected>Select a service</option>
+                <option value="Website Design">Website Design</option>
+                <option value="Landing Page">Landing Page</option>
+                <option value="Business Website">Business Website</option>
+                <option value="E-Commerce">E-Commerce</option>
+                <option value="UI/UX">UI/UX</option>
+                <option value="Website Redesign">Website Redesign</option>
+                <option value="Other">Other</option>
+              </select>
+              <div class="form-error-msg" id="errorService">Please select a service.</div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">05 — PROJECT DESCRIPTION <span class="form-required">*</span></label>
+            <textarea class="form-textarea" name="details" placeholder="Tell me about your project, goals, and what you're looking for..." rows="4" required id="formDetails"></textarea>
+            <div class="form-error-msg" id="errorDetails">Please describe your project.</div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">06 — BUDGET RANGE</label>
+              <select class="form-select" name="budget" id="formBudget">
+                <option value="" disabled selected>Select your budget</option>
+                <option value="Under ₹10,000">Under ₹10,000</option>
+                <option value="₹10,000 – ₹25,000">₹10,000 – ₹25,000</option>
+                <option value="₹25,000 – ₹50,000">₹25,000 – ₹50,000</option>
+                <option value="₹50,000+">₹50,000+</option>
+                <option value="Let's Discuss">Let's Discuss</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">07 — TIMELINE</label>
+              <select class="form-select" name="timeline" id="formTimeline">
+                <option value="" disabled selected>Select timeline</option>
+                <option value="ASAP">ASAP</option>
+                <option value="1–2 Weeks">1–2 Weeks</option>
+                <option value="2–4 Weeks">2–4 Weeks</option>
+                <option value="1–2 Months">1–2 Months</option>
+                <option value="Flexible">Flexible</option>
+              </select>
+            </div>
+          </div>
+
+          <button type="submit" class="btn-primary btn-full" id="formSubmit">
+            <span class="btn-text">SEND PROJECT INQUIRY <span class="arrow">↗</span></span>
+            <span class="btn-loader"><span class="spinner"></span> SENDING...</span>
+          </button>
+        </form>
+      </div>
+
+      <div class="inquiry-success" id="inquirySuccess">
+        <h2 class="success-title">Thank <em>You.</em></h2>
+        <p class="success-text">Your project inquiry has been received.<br>I'll get back to you as soon as possible.</p>
+        <div class="success-actions">
+          <a href="#hero" class="btn-primary" id="successBackHome">BACK TO HOME <span class="arrow">↗</span></a>
+          <a href="https://wa.me/919140588807?text=Hi%20Risha!%20I%20just%20submitted%20a%20project%20inquiry%20through%20your%20portfolio." target="_blank" rel="noopener" class="btn-ghost">CHAT ON WHATSAPP <span class="arrow">↗</span></a>
+        </div>
+      </div>
+
+      <div class="inquiry-error" id="inquiryError">
+        <h2 class="success-title">Something went <em>wrong.</em></h2>
+        <p class="success-text">Please try again or contact me directly on WhatsApp.</p>
+        <div class="success-actions">
+          <button class="btn-primary" id="errorRetry">TRY AGAIN <span class="arrow">↗</span></button>
+          <a href="https://wa.me/919140588807?text=Hi%20Risha!%20I%20tried%20submitting%20a%20project%20inquiry%20through%20your%20portfolio%20but%20it%20didn't%20go%20through.%20Can%20we%20discuss?" target="_blank" rel="noopener" class="btn-ghost">CHAT ON WHATSAPP <span class="arrow">↗</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICE DRAWER -->
+  <div class="modal-overlay" id="serviceOverlay"></div>
+  <div class="service-drawer" id="serviceDrawer">
+    <button class="modal-close" id="serviceDrawerClose" aria-label="Close service details">
+      <span class="modal-close-line"></span>
+      <span class="modal-close-line"></span>
+    </button>
+    <div class="service-drawer-scroll">
+      <div class="service-drawer-number" id="serviceDrawerNumber"></div>
+      <h2 class="service-drawer-title" id="serviceDrawerTitle"></h2>
+      <p class="service-drawer-desc" id="serviceDrawerDesc"></p>
+      <div class="service-drawer-section">
+        <div class="service-drawer-section-label">WHAT'S INCLUDED</div>
+        <ul class="service-drawer-list" id="serviceDrawerList"></ul>
+      </div>
+      <div class="service-drawer-section">
+        <div class="service-drawer-section-label">BEST FOR</div>
+        <div class="service-drawer-best" id="serviceDrawerBest"></div>
+      </div>
+      <div class="service-drawer-ctas">
+        <a href="#" class="btn-primary" id="serviceDrawerCta"><span id="serviceDrawerCtaText"></span> <span class="arrow">↗</span></a>
+        <a href="https://wa.me/919140588807?text=Hi%20Risha!%20I%20found%20your%20portfolio%20and%20I'd%20like%20to%20discuss%20a%20website%20project." target="_blank" rel="noopener" class="btn-ghost">CHAT ON WHATSAPP <span class="arrow">↗</span></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECT DETAIL MODAL -->
+  <div class="modal-overlay project-detail-overlay" id="projectOverlay">
+    <div class="project-detail" id="projectDetail">
+      <button class="modal-close" id="projectDetailClose" aria-label="Close project details">
+        <span class="modal-close-line"></span>
+        <span class="modal-close-line"></span>
+      </button>
+
+      <div class="project-detail-header">
+        <div class="project-detail-number" id="projectDetailNumber"></div>
+        <h2 class="project-detail-title" id="projectDetailTitle"></h2>
+        <div class="project-detail-category" id="projectDetailCategory"></div>
+      </div>
+
+      <img class="project-detail-image" id="projectDetailImage" src="" alt="">
+
+      <div class="project-detail-grid">
+        <div class="project-detail-section">
+          <div class="project-detail-label">OVERVIEW</div>
+          <p class="project-detail-text" id="projectDetailOverview"></p>
+        </div>
+        <div class="project-detail-section">
+          <div class="project-detail-label">ROLE</div>
+          <p class="project-detail-text" id="projectDetailRole"></p>
+        </div>
+        <div class="project-detail-section">
+          <div class="project-detail-label">DESIGN APPROACH</div>
+          <p class="project-detail-text" id="projectDetailApproach"></p>
+        </div>
+        <div class="project-detail-section">
+          <div class="project-detail-label">TOOLS / TECHNOLOGY</div>
+          <p class="project-detail-text" id="projectDetailTools"></p>
+        </div>
+      </div>
+
+      <div class="project-detail-ctas">
+        <a href="#" class="btn-primary" id="projectDetailStartProject">START A PROJECT <span class="arrow">↗</span></a>
+        <a href="https://wa.me/919140588807?text=Hi%20Risha!%20I%20found%20your%20portfolio%20and%20I'd%20like%20to%20discuss%20a%20website%20project." target="_blank" rel="noopener" class="btn-ghost">CHAT ON WHATSAPP <span class="arrow">↗</span></a>
+      </div>
+
+      <div class="project-detail-nav">
+        <a href="#" class="project-nav-link" id="projectPrev"><span class="arrow-left">←</span> PREVIOUS PROJECT</a>
+        <a href="#work" class="project-nav-link project-nav-back" id="projectBackToWork">BACK TO SELECTED WORK</a>
+        <a href="#" class="project-nav-link" id="projectNext">NEXT PROJECT <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/919140588807?text=Hi%20Risha!%20I%20found%20your%20portfolio%20and%20I'd%20like%20to%20discuss%20a%20website%20project." target="_blank" rel="noopener" class="whatsapp-float" id="whatsappFloat" aria-label="Chat on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"><path d="M16.004 2.667A13.26 13.26 0 002.667 15.87a13.15 13.15 0 001.901 6.818L2.667 29.333l6.838-1.795a13.27 13.27 0 006.5 1.697h.006A13.27 13.27 0 0029.333 15.87 13.27 13.27 0 0016.004 2.667zm0 24.266a11 11 0 01-5.616-1.54l-.403-.24-4.178 1.096 1.115-4.073-.263-.418a10.93 10.93 0 01-1.684-5.888A11.01 11.01 0 0116.004 4.93a11.01 11.01 0 0111.029 10.94 11.01 11.01 0 01-11.03 11.063zm6.042-8.217c-.331-.166-1.96-.967-2.264-1.078-.304-.11-.526-.166-.748.166-.221.331-.858 1.078-1.052 1.3-.194.221-.388.249-.72.083-.331-.166-1.398-.515-2.664-1.642-.985-.877-1.65-1.96-1.843-2.291-.194-.331-.02-.51.145-.675.15-.148.331-.388.497-.582.166-.194.221-.331.331-.554.11-.221.055-.415-.028-.582-.083-.166-.748-1.804-1.025-2.47-.27-.649-.545-.56-.748-.571-.194-.01-.415-.012-.637-.012s-.582.083-.886.415c-.304.331-1.163 1.137-1.163 2.774s1.19 3.218 1.356 3.44c.166.221 2.342 3.574 5.675 5.012.793.342 1.412.547 1.894.7.796.253 1.521.217 2.094.131.639-.095 1.96-.802 2.236-1.577.276-.775.276-1.44.194-1.577-.083-.138-.304-.221-.637-.388z"/></svg>
+  </a>
+
+  <!-- ============================================================
+       JAVASCRIPT
+       ============================================================ -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const isMobile = window.innerWidth < 768;
+
+      // ============================================================
+      // WHATSAPP HELPER
+      // ============================================================
+      const WHATSAPP_NUMBER = "919140588807";
+      const WHATSAPP_MESSAGE = encodeURIComponent("Hi Risha! I found your portfolio and I'd like to discuss a website project.");
+      const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`;
+
+      // ============================================================
+      // SERVICE DATA
+      // ============================================================
+      const serviceData = {
+        'website-design': {
+          number: '01 — SERVICE',
+          title: 'Website Design',
+          desc: 'Custom websites designed around the brand, audience and business goals.',
+          includes: [
+            'Custom visual direction',
+            'Responsive design',
+            'Desktop + tablet + mobile layouts',
+            'Conversion-focused page structure',
+            'Interactive elements',
+            'Modern animations',
+            'Contact / CTA integration',
+            'Performance-conscious implementation'
+          ],
+          bestFor: 'Businesses, personal brands, agencies and creators who need a complete professional website.',
+          cta: 'START A WEBSITE PROJECT'
+        },
+        'landing-pages': {
+          number: '02 — SERVICE',
+          title: 'Landing Pages',
+          desc: 'Focused landing pages designed to turn visitors into action.',
+          includes: [
+            'Strong visual hierarchy',
+            'Conversion-focused sections',
+            'CTA optimization',
+            'Responsive design',
+            'Fast-loading layout',
+            'Forms / contact integration',
+            'Analytics-ready structure',
+            'Smooth interactions'
+          ],
+          bestFor: 'Campaigns, products, services, ads and launches.',
+          cta: 'START A LANDING PAGE'
+        },
+        'business-websites': {
+          number: '03 — SERVICE',
+          title: 'Business Websites',
+          desc: 'Professional websites that build trust and make it easy for customers to contact a business.',
+          includes: [
+            'Custom homepage',
+            'About section',
+            'Services showcase',
+            'Contact integration',
+            'WhatsApp integration',
+            'Mobile responsive design',
+            'Google-friendly structure',
+            'Strong CTA placement'
+          ],
+          bestFor: 'Local businesses, service businesses, startups and growing brands.',
+          cta: 'BUILD MY BUSINESS WEBSITE'
+        },
+        'ecommerce': {
+          number: '04 — SERVICE',
+          title: 'E-Commerce',
+          desc: 'Beautiful, intuitive shopping experiences designed around products and conversion.',
+          includes: [
+            'Product-focused design',
+            'Category structure',
+            'Product pages',
+            'Cart experience',
+            'Checkout flow',
+            'Mobile-first experience',
+            'Trust-building sections',
+            'Conversion-focused UI'
+          ],
+          bestFor: 'Brands and businesses selling products online.',
+          cta: 'START AN E-COMMERCE PROJECT'
+        },
+        'ui-ux': {
+          number: '05 — SERVICE',
+          title: 'UI / UX Design',
+          desc: 'Thoughtful interfaces, user flows and experiences for websites and digital products.',
+          includes: [
+            'User flows',
+            'Information architecture',
+            'Wireframes',
+            'High-fidelity UI',
+            'Responsive layouts',
+            'Interaction design',
+            'Prototyping',
+            'Design systems'
+          ],
+          bestFor: 'Websites, web apps, dashboards, SaaS products and digital products.',
+          cta: 'START A UI/UX PROJECT'
+        },
+        'website-redesign': {
+          number: '06 — SERVICE',
+          title: 'Website Redesign',
+          desc: 'Modern redesigns that improve visual quality, usability and conversion.',
+          includes: [
+            'Existing website analysis',
+            'UX improvements',
+            'Visual redesign',
+            'Better content hierarchy',
+            'Mobile optimization',
+            'Improved CTA placement',
+            'Modern interactions',
+            'Conversion-focused improvements'
+          ],
+          bestFor: 'Businesses that already have a website but feel it looks outdated, confusing or fails to convert visitors.',
+          cta: 'REDESIGN MY WEBSITE'
+        }
+      };
+
+      // ============================================================
+      // PROJECT DATA
+      // ============================================================
+      const projectData = [
+        {
+          number: 'PROJECT 01',
+          title: 'Haven',
+          category: 'LUXURY REAL ESTATE',
+          image: 'assets/project-haven.jpg',
+          overview: 'Haven is a luxury real estate brand that needed a digital presence as refined as the properties they represent. The website was designed to showcase architectural sanctuaries through immersive visual storytelling, elegant typography and a seamless browsing experience that mirrors the exclusivity of the brand.',
+          role: 'Web Designer — Visual direction, UI design, responsive layouts and interaction design.',
+          approach: 'The design approach centered on creating a sense of exclusivity and sophistication. Large-format imagery, generous negative space and a warm neutral palette were used to let the architecture speak for itself. Every interaction was designed to feel calm and intentional, guiding potential buyers through the properties with editorial precision.',
+          tools: 'Figma, HTML, CSS, JavaScript'
+        },
+        {
+          number: 'PROJECT 02',
+          title: 'Elite Dental Care',
+          category: 'DENTAL / MEDICAL WEBSITE',
+          image: 'assets/project-dental.jpg',
+          overview: 'Elite Dental Care required a website that would build instant trust with patients while making it effortless to book appointments. The design balances clinical professionalism with warm approachability, featuring a clean layout that highlights services, team expertise and patient testimonials.',
+          role: 'Web Designer — UI/UX design, responsive development and conversion optimization.',
+          approach: 'Trust was the primary design driver. A clean white and soft blue palette conveys cleanliness and professionalism. Strategic CTA placement makes booking appointments frictionless. The mobile experience was prioritized, ensuring patients could easily find information and take action from any device.',
+          tools: 'Figma, HTML, CSS, JavaScript'
+        },
+        {
+          number: 'PROJECT 03',
+          title: 'Apex Consortium',
+          category: 'BUSINESS WEBSITE',
+          image: 'assets/project-business.jpg',
+          overview: 'Apex Consortium is a business consulting firm that needed a corporate website reflecting their authority and expertise. The website positions them as industry leaders through strategic design, compelling case studies and a professional visual identity that inspires confidence.',
+          role: 'Web Designer — Brand-aligned web design, content architecture and responsive implementation.',
+          approach: 'A dark navy and white scheme was chosen to convey authority and trust. The design uses a structured grid layout with clear information hierarchy. Strategic use of client logos, testimonials and case studies builds social proof throughout the experience.',
+          tools: 'Figma, HTML, CSS, JavaScript'
+        },
+        {
+          number: 'PROJECT 04',
+          title: 'Veloce Automotive',
+          category: 'PPF / PAINT PROTECTION FILM',
+          image: 'assets/project-ppf.jpg',
+          overview: 'Veloce Automotive specializes in premium paint protection film and ceramic coating services. Their website needed to reflect the luxury automotive aesthetic while clearly communicating their services and expertise. The dark, sleek design mirrors the premium nature of the vehicles they protect.',
+          role: 'Web Designer — Visual design, service showcase and responsive layouts.',
+          approach: 'The dark theme with subtle highlights creates a premium automotive atmosphere. High-quality imagery of luxury vehicles and detailed service descriptions build trust. The service cards are designed to make it easy for customers to understand options and book services directly.',
+          tools: 'Figma, HTML, CSS, JavaScript'
+        },
+        {
+          number: 'PROJECT 05',
+          title: 'Aura Creative',
+          category: 'PREMIUM LANDING PAGE',
+          image: 'assets/project-creative.jpg',
+          overview: 'Aura Creative is a digital agency that wanted a landing page as bold and creative as their work. The design pushes boundaries with dramatic typography, dynamic visual elements and an immersive dark aesthetic that immediately establishes their creative authority.',
+          role: 'Web Designer — Creative direction, editorial layout and motion design.',
+          approach: 'Bold, experimental typography takes center stage, creating an immediate visual impact. The dark background allows creative elements and project showcases to pop. Fluid animations and hover interactions create an engaging, gallery-like browsing experience that showcases the agency\'s capabilities through the website itself.',
+          tools: 'Figma, HTML, CSS, JavaScript, GSAP'
+        }
+      ];
+
+      // ============================================================
+      // ELEMENTS
+      // ============================================================
+      const cursorDot = document.getElementById("cursorDot");
+      const cursorRing = document.getElementById("cursorRing");
+      const cursorText = document.getElementById("cursorText");
+      const loader = document.getElementById("loader");
+      const nav = document.getElementById("nav");
+      const heroBgText = document.getElementById("heroBgText");
+      const heroBgText2 = document.getElementById("heroBgText2");
+      const heroPortrait = document.getElementById("heroPortrait");
+      const heroContent = document.getElementById("heroContent");
+      const heroInfoRight = document.getElementById("heroInfoRight");
+      const heroScrollIndicator = document.getElementById("heroScrollIndicator");
+      const navHamburger = document.getElementById("navHamburger");
+      const navLinks = document.getElementById("navLinks");
+
+      // Modal elements
+      const inquiryOverlay = document.getElementById("inquiryOverlay");
+      const inquiryFormWrap = document.getElementById("inquiryFormWrap");
+      const inquirySuccess = document.getElementById("inquirySuccess");
+      const serviceOverlay = document.getElementById("serviceOverlay");
+      const serviceDrawer = document.getElementById("serviceDrawer");
+      const projectOverlay = document.getElementById("projectOverlay");
+
+      let mouseX = window.innerWidth / 2;
+      let mouseY = window.innerHeight / 2;
+      let ringX = mouseX;
+      let ringY = mouseY;
+      let isHovering = false;
+      let currentScroll = window.scrollY;
+      let currentProjectIndex = 0;
+
+      // ============================================================
+      // MOBILE MENU
+      // ============================================================
+      navHamburger.addEventListener("click", () => {
+        navHamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+        document.body.classList.toggle("menu-open");
+      });
+
+      // Close mobile menu on link click
+      navLinks.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", () => {
+          navHamburger.classList.remove("active");
+          navLinks.classList.remove("active");
+          document.body.classList.remove("menu-open");
+        });
+      });
+
+      // ============================================================
+      // MODAL MANAGEMENT
+      // ============================================================
+      function openModal(overlay) {
+        document.body.classList.add("modal-open");
+        overlay.classList.add("active");
+      }
+
+      function closeModal(overlay) {
+        overlay.classList.remove("active");
+        document.body.classList.remove("modal-open");
+      }
+
+      function openInquiry() {
+        inquiryFormWrap.style.display = "block";
+        inquirySuccess.classList.remove("active");
+        openModal(inquiryOverlay);
+      }
+
+      function closeInquiry() {
+        closeModal(inquiryOverlay);
+      }
+
+      function openServiceDrawer(serviceKey) {
+        const data = serviceData[serviceKey];
+        if (!data) return;
+        document.getElementById("serviceDrawerNumber").textContent = data.number;
+        document.getElementById("serviceDrawerTitle").textContent = data.title;
+        document.getElementById("serviceDrawerDesc").textContent = data.desc;
+        const list = document.getElementById("serviceDrawerList");
+        list.innerHTML = data.includes.map(item => `<li>${item}</li>`).join('');
+        document.getElementById("serviceDrawerBest").innerHTML = `<em>${data.bestFor}</em>`;
+        document.getElementById("serviceDrawerCtaText").textContent = data.cta;
+        document.getElementById("serviceDrawerCta").onclick = (e) => { e.preventDefault(); closeServiceDrawer(); setTimeout(openInquiry, 350); };
+        openModal(serviceOverlay);
+        setTimeout(() => serviceDrawer.classList.add("active"), 10);
+      }
+
+      function closeServiceDrawer() {
+        serviceDrawer.classList.remove("active");
+        setTimeout(() => closeModal(serviceOverlay), 350);
+      }
+
+      function openProjectDetail(index) {
+        const data = projectData[index];
+        if (!data) return;
+        currentProjectIndex = index;
+        document.getElementById("projectDetailNumber").textContent = data.number;
+        document.getElementById("projectDetailTitle").textContent = data.title;
+        document.getElementById("projectDetailCategory").textContent = data.category;
+        document.getElementById("projectDetailImage").src = data.image;
+        document.getElementById("projectDetailImage").alt = `${data.title} — ${data.category}`;
+        document.getElementById("projectDetailOverview").textContent = data.overview;
+        document.getElementById("projectDetailRole").textContent = data.role;
+        document.getElementById("projectDetailApproach").textContent = data.approach;
+        document.getElementById("projectDetailTools").textContent = data.tools;
+        document.getElementById("projectDetailStartProject").onclick = (e) => { e.preventDefault(); closeProjectDetail(); setTimeout(openInquiry, 350); };
+
+        // Update prev/next
+        updateProjectNav(index);
+
+        openModal(projectOverlay);
+        projectOverlay.scrollTop = 0;
+      }
+
+      function updateProjectNav(index) {
+        const prevLink = document.getElementById("projectPrev");
+        const nextLink = document.getElementById("projectNext");
+
+        if (index <= 0) {
+          prevLink.classList.add("disabled");
+          prevLink.onclick = (e) => e.preventDefault();
+        } else {
+          prevLink.classList.remove("disabled");
+          prevLink.onclick = (e) => { e.preventDefault(); openProjectDetail(index - 1); };
+        }
+
+        if (index >= projectData.length - 1) {
+          nextLink.classList.add("disabled");
+          nextLink.onclick = (e) => e.preventDefault();
+        } else {
+          nextLink.classList.remove("disabled");
+          nextLink.onclick = (e) => { e.preventDefault(); openProjectDetail(index + 1); };
+        }
+      }
+
+      function closeProjectDetail() {
+        closeModal(projectOverlay);
+      }
+
+      // Back to work link
+      document.getElementById("projectBackToWork").addEventListener("click", (e) => {
+        e.preventDefault();
+        closeProjectDetail();
+        setTimeout(() => {
+          document.getElementById("work").scrollIntoView({ behavior: "smooth" });
+        }, 350);
+      });
+
+      // ============================================================
+      // EVENT BINDINGS — START A PROJECT
+      // ============================================================
+      document.getElementById("navStartProject").addEventListener("click", (e) => { e.preventDefault(); openInquiry(); });
+      document.getElementById("heroStartProject").addEventListener("click", (e) => { e.preventDefault(); openInquiry(); });
+      document.getElementById("contactStartProject").addEventListener("click", (e) => { e.preventDefault(); openInquiry(); });
+      document.getElementById("inquiryClose").addEventListener("click", closeInquiry);
+      inquiryOverlay.addEventListener("click", (e) => { if (e.target === inquiryOverlay) closeInquiry(); });
+
+      // Success continue
+      const successContinue = document.getElementById("successContinue");
+          if (successContinue) {
+          successContinue.addEventListener("click", closeInquiry);
+      }
+      // ============================================================
+      // FORM SUBMISSION
+      // ============================================================
+      document.getElementById("projectForm").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const form = e.target;
+        const formData = new FormData(form);
+        const data = Object.fromEntries(formData.entries());
+        console.log("Project Inquiry Submitted:", data);
+        // Show success
+        inquiryFormWrap.style.display = "none";
+        inquirySuccess.classList.add("active");
+        form.reset();
+      });
+
+      // ============================================================
+      // SERVICE ROWS
+      // ============================================================
+      document.querySelectorAll(".service-row").forEach(row => {
+        row.addEventListener("click", () => {
+          const serviceKey = row.getAttribute("data-service");
+          openServiceDrawer(serviceKey);
+        });
+      });
+
+      document.getElementById("serviceDrawerClose").addEventListener("click", closeServiceDrawer);
+      serviceOverlay.addEventListener("click", (e) => { if (e.target === serviceOverlay) closeServiceDrawer(); });
+
+      // ============================================================
+      // PROJECT LINKS
+      // ============================================================
+      document.querySelectorAll("[data-project-link]").forEach(link => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          const index = parseInt(link.getAttribute("data-project-link"));
+          openProjectDetail(index);
+        });
+      });
+
+      document.querySelectorAll(".project-item").forEach(item => {
+        const imageWrap = item.querySelector(".project-image-wrap");
+        if (imageWrap) {
+          imageWrap.addEventListener("click", () => {
+            const index = parseInt(item.getAttribute("data-project"));
+            openProjectDetail(index);
+          });
+          imageWrap.style.cursor = 'pointer';
+        }
+      });
+
+      document.getElementById("projectDetailClose").addEventListener("click", closeProjectDetail);
+      projectOverlay.addEventListener("click", (e) => { if (e.target === projectOverlay) closeProjectDetail(); });
+
+      // ============================================================
+      // KEYBOARD — Escape closes modals
+      // ============================================================
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          if (inquiryOverlay.classList.contains("active")) closeInquiry();
+          if (serviceDrawer.classList.contains("active")) closeServiceDrawer();
+          if (projectOverlay.classList.contains("active")) closeProjectDetail();
+          // Close mobile menu
+          if (navLinks.classList.contains("active")) {
+            navHamburger.classList.remove("active");
+            navLinks.classList.remove("active");
+            document.body.classList.remove("menu-open");
+          }
+        }
+      });
+
+      // ============================================================
+      // CUSTOM CURSOR
+      // ============================================================
+      if (!isMobile) {
+        document.addEventListener("mousemove", (e) => {
+          mouseX = e.clientX;
+          mouseY = e.clientY;
+          cursorDot.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
+          if (isHovering) {
+            cursorText.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
+          }
+        });
+
+        const animateCursor = () => {
+          ringX += (mouseX - ringX) * 0.12;
+          ringY += (mouseY - ringY) * 0.12;
+          cursorRing.style.transform = `translate3d(${ringX}px, ${ringY}px, 0)`;
+          requestAnimationFrame(animateCursor);
+        };
+        requestAnimationFrame(animateCursor);
+
+        document.querySelectorAll("[data-cursor]").forEach(el => {
+          el.addEventListener("mouseenter", (e) => {
+            isHovering = true;
+            cursorRing.classList.add("hover");
+            cursorText.classList.add("active");
+            cursorText.innerText = e.target.closest('[data-cursor]').getAttribute("data-cursor");
+          });
+          el.addEventListener("mouseleave", () => {
+            isHovering = false;
+            cursorRing.classList.remove("hover");
+            cursorText.classList.remove("active");
+          });
+        });
+      } else {
+        cursorDot.style.display = "none";
+        cursorRing.style.display = "none";
+        cursorText.style.display = "none";
+      }
+
+      // ============================================================
+      // LOADER SEQUENCE
+      // ============================================================
+      setTimeout(() => {
+        loader.classList.add("loaded");
+        setTimeout(() => {
+          heroBgText.classList.add("entered");
+          setTimeout(() => heroBgText2.classList.add("entered"), 200);
+          setTimeout(() => heroPortrait.classList.add("entered"), 400);
+          setTimeout(() => heroContent.classList.add("entered"), 600);
+          setTimeout(() => heroInfoRight.classList.add("entered"), 800);
+          setTimeout(() => heroScrollIndicator.classList.add("entered"), 1000);
+        }, 600);
+      }, 1800);
+
+      // ============================================================
+      // HERO BACKGROUND TEXT WORDS
+      // ============================================================
+      const words = ["RISHA", "DESIGN", "CREATE", "CONVERT"];
+      let lastWordIndex = 0;
+
+      // ============================================================
+      // SCROLL HANDLING
+      // ============================================================
+      let ticking = false;
+      function onScroll() {
+        currentScroll = window.scrollY;
+
+        // Nav scroll state
+        if (currentScroll > 50) { nav.classList.add("scrolled"); } else { nav.classList.remove("scrolled"); }
+
+        // Hero parallax
+        const heroHeight = document.getElementById("hero").offsetHeight;
+        if (currentScroll < heroHeight + 300) {
+          const speedBg1 = 0.3;
+          const speedBg2 = 0.15;
+          const speedPortrait = 0.08;
+
+          heroBgText.style.transform = `translate(calc(-50% + ${currentScroll * speedBg1 * 0.3}px), calc(-50% + ${currentScroll * speedBg1 * 0.5}px))`;
+          heroBgText2.style.transform = `translate(calc(-50% - ${currentScroll * speedBg2 * 0.3}px), calc(-50% + ${currentScroll * speedBg2 * 0.5}px))`;
+          heroPortrait.style.transform = `translateX(-50%) translateY(${currentScroll * speedPortrait}px)`;
+
+          // Word cycling
+          const vhScroll = currentScroll / window.innerHeight;
+          const wordIndex = Math.min(Math.floor(vhScroll / 0.3), words.length - 1);
+          if (wordIndex !== lastWordIndex) {
+            lastWordIndex = wordIndex;
+            heroBgText.style.transition = "opacity 0.4s ease";
+            heroBgText.style.opacity = "0";
+            setTimeout(() => {
+              heroBgText.innerText = words[wordIndex];
+              heroBgText.style.opacity = "";
+              heroBgText.style.transition = "";
+            }, 400);
+          }
+        }
+
+        ticking = false;
+      }
+
+      document.addEventListener("scroll", () => {
+        if (!ticking) {
+          requestAnimationFrame(onScroll);
+          ticking = true;
+        }
+      });
+
+      // ============================================================
+      // SMOOTH SCROLL
+      // ============================================================
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function(e) {
+          const href = this.getAttribute("href");
+          if (href === "#") return;
+          e.preventDefault();
+          const target = document.querySelector(href);
+          if (target) { target.scrollIntoView({ behavior: "smooth" }); }
+        });
+      });
+
+      // ============================================================
+      // SCROLL REVEAL
+      // ============================================================
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("revealed");
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      document.querySelectorAll(".reveal").forEach(el => revealObserver.observe(el));
+
+      // ============================================================
+      // PROCESS TIMELINE
+      // ============================================================
+      const processSteps = document.querySelectorAll(".process-step");
+      const processLineFill = document.getElementById("processLineFill");
+      const processObserver = new IntersectionObserver((entries) => {
+        let activeSteps = 0;
+        entries.forEach(entry => {
+          if (entry.isIntersecting) entry.target.classList.add("active");
+        });
+        processSteps.forEach((step, index) => {
+          if (step.classList.contains("active")) activeSteps = index + 1;
+        });
+        if (activeSteps > 0) {
+          processLineFill.style.height = `${(activeSteps / processSteps.length) * 100}%`;
+        }
+      }, { threshold: 0.5, rootMargin: "-10% 0px -10% 0px" });
+      processSteps.forEach(step => processObserver.observe(step));
+
+      // ============================================================
+      // PROJECT IMAGE GLOW
+      // ============================================================
+      if (!isMobile) {
+        document.querySelectorAll(".project-image-wrap").forEach(wrap => {
+          wrap.addEventListener("mousemove", (e) => {
+            const rect = wrap.getBoundingClientRect();
+            wrap.style.setProperty("--mouse-x", `${e.clientX - rect.left}px`);
+            wrap.style.setProperty("--mouse-y", `${e.clientY - rect.top}px`);
+          });
+        });
+      }
+
+      // ============================================================
+      // MAGNETIC BUTTONS
+      // ============================================================
+      if (!isMobile) {
+        document.querySelectorAll(".magnetic").forEach(btn => {
+          btn.addEventListener("mousemove", (e) => {
+            const rect = btn.getBoundingClientRect();
+            const x = e.clientX - rect.left - rect.width / 2;
+            const y = e.clientY - rect.top - rect.height / 2;
+            btn.style.transform = `translate(${x * 0.08}px, ${y * 0.08}px)`;
+          });
+          btn.addEventListener("mouseleave", () => { btn.style.transform = "translate(0, 0)"; });
+        });
+      }
+
+      // ============================================================
+      // HERO MOUSE PARALLAX
+      // ============================================================
+      if (!isMobile) {
+        const heroSection = document.getElementById("hero");
+        heroSection.addEventListener("mousemove", (e) => {
+          const x = (e.clientX / window.innerWidth - 0.5) * 2;
+          const y = (e.clientY / window.innerHeight - 0.5) * 2;
+          requestAnimationFrame(() => {
+            const sBg1 = currentScroll * 0.3 * 0.3;
+            const sBg2 = -currentScroll * 0.15 * 0.3;
+            const sP = currentScroll * 0.08;
+            heroBgText.style.transform = `translate(calc(-50% + ${sBg1 + x * 12}px), calc(-50% + ${currentScroll * 0.3 * 0.5 + y * 12}px))`;
+            heroBgText2.style.transform = `translate(calc(-50% + ${sBg2 + x * 8}px), calc(-50% + ${currentScroll * 0.15 * 0.5 + y * 8}px))`;
+            heroPortrait.style.transform = `translateX(calc(-50% + ${x * 4}px)) translateY(${sP + y * 4}px)`;
+          });
+        });
+      }
+
+    });
+  </script>
+</body>
+</html>
